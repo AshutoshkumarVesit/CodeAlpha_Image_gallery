@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorize</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="images\logo.png" alt="Logo" class="logo"> <!-- Add your logo here -->
+            <h1 id="title">Memorize</h1>
+        </div>
+        <input type="text" id="search" placeholder="Search for images...">
+    </header>
+
+    <div class="gallery" id="gallery">
+        <div class="image-item">
+            <img src="images/image1.jpg" alt="Image 1" data-keywords="marvel,superheroes,villains,collage,characters,expressions,action,adventure,entertainment,comic,movies,fandom,pop culture,avengers,iconic,diverse,montage,vibrant,scene,comic book,films,popular,cinematic,heroes,visual art,creativity,graphic design,storytelling,cinematic universe,marvel comics,fandom culture,art,illustrations,multiverse,cinematic experience,character design,ensemble,team,imagery,concepts">
+        </div>
+        <div class="image-item">
+            <img src="images/image2.jpg" alt="Image 2" data-keywords="marvel,superheroes,spider-man,iron man,captain america,collage,action,comic book,avengers,characters,vibrant,fantasy,franchise,entertainment,cinematic,iconic,heroes,graphic design,animation,adventure,fandom,pop culture,blockbuster,team,universe,action figures,films,comics,popular,illustrations,dynamic,colorful,ensemble,excitement,storytelling,movies,creative,fights,epic,variety">
+        </div>
+        <div class="image-item">
+            <img src="images/image3.jpg" alt="Image 3" data-keywords="spider-man,collage,comic book,pop culture,superhero,urban art,creativity,graphic design,quotes,vibrant colors,comic characters,spider webs,illustrations,nostalgia,entertainment,culture,icons,marvel,youth culture,artistry,fandom,character design,vibrant imagery,street art,comic style,graphic elements,urban vibe,visual storytelling,creative expression,comic panels,eclectic mix,pop art,memorabilia,comic community,superheroes,animation,art style,dynamic composition,graphic motifs,character quotes">
+        </div>
+        <div class="image-item">
+            <img src="images/image4.jpg" alt="Image 4" data-keywords="superheroes,cosmic battle,vibrant colors,galaxy,villain,characters,confrontation,determination,space,action,adventure,alliance,heroes,fight,epic,universe,animated,teamwork,cinematic,fantasy,Marvel,comic book,power,unity,awakening,mystical,celestial,conflict,legend,mythology,struggle,destiny,danger,epic battle,space warriors,alien worlds,heroic stance,iconic figures,fate,guardians">
+        </div>
+        <div class="image-item">
+            <img src="images/image5.jpg" alt="Image 5" data-keywords="technology,design,glowing,diamond,futuristic,red,orange,background,patterns,digital,abstract,vibrant,modern,creative,graphic,artwork,illumination,tech,center,circular,futuristic elements,high-tech,visual,interface,energy,shine,luminous,symmetry,conceptual,innovative,sci-fi,art,rendering,artificial,circuits,style,aesthetic,motion,bright,signals">
+        </div>
+        <div class="image-item">
+            <img src="images/image6.jpg" alt="Image 6" data-keywords="superhero,battle,confrontation,ruins,twilight,action,epic,characters,powers,forces,landscape,dramatic,dynamic,foes,villains,comic,heroes,fight,fly,teamwork,conflict,chaos,movement,universe,cinematic,fantasy,adventure,thrill,excitement,explosions,energy,intensity,vibrant,iconic,legendary,struggle,challenge,stakes,atmosphere,alliance">
+        </div>
+        <div class="image-item">
+            <img src="images/image7.jpg" alt="Image 7" data-keywords="superheroes,Spider-Man,Hulk,Iron Man,Captain America,city,urban,action,adventure,comic,cartoon,heroes,villains,dynamic,characters,fun,battle,children,animation,teamwork,colorful,powerful,creative,Marvel,capes,masks,comics,kids,play,fantasy,imagination,excitement,cityscape,graphic,art,dynamic pose,heroes unite,fictional,pop culture,entertainment">
+        </div>
+        <div class="image-item">
+            <img src="images/image8.jpg" alt="Image 8" data-keywords="superheroes,battle,cosmic,ensemble,powers,universe,action,fantasy,strength,unity,heroes,villains,cinematic,adventure,characters,teamwork,bright,celestial,confrontation,epic,showdown,imagination,comic,fiction,realism,night,dynamic,vibrant,colorful,excitement,gravity,iconic,legendary,Marvel,alliance,guardians,shield,technology,flight,energy">
+        </div>
+        <div class="image-item">
+            <img src="images/image9.jpg" alt="Image 9" data-keywords="avengers,marvel,iron man,black widow,hulk,comic art,superhero,avengers team,marvel characters,pop culture,comic book,artwork,comic style,vivid colors,dynamic design,avengers logo,entertainment,graphic design,superhero movies,action heroes,fandom,comic lovers,illustrated characters,creative design,colorful artwork,action figures,iconic characters,action scenes,hero representation,comic series,blockbuster movies,film art,visual art,character portraits,comic illustrations,graphic art,character dynamics,cinematic universe,action-packed,popular culture">
+        </div>
+        <div class="image-item">
+            <img src="images/image10.jpg" alt="Image 10" data-keywords="iron man,superhero,animated character,rooftop,sunset,city skyline,relaxation,metallic suit,urban environment,artwork,sunset glow,detail,hero,comic book,illustration,sci-fi,technology,armor,leisure,solitude,landscape,fantasy,legend,evening,art style,pop culture,storytelling,dynamic pose,iconic,character design,imagination,cinematic,creative,design,visual art,digital art,modern,vibrant,action,cinematic moment">
+        </div>
+        <div class="image-item">
+            <img src="images/image11.jpg" alt="Image 11" data-keywords="deadpool,superhero,costume,comic book,character,red,black,playful,stance,mask,action,film,hero,villain,entertainment,pop culture,pose,confident,backdrop,character design,comics,violence,humor,movies,storytelling,fantasy,adventure,cosplay,martial arts,iconic,duality,dramatic,fan art,mythology,comic convention,traits,nostalgia,performance,entertainment industry,aesthetics">
+        </div>
+        <div class="image-item">
+            <img src="images/image12.jpg" alt="Image 12" data-keywords="superhero,flight,birds,clouds,sunlight,strength,city,brave,sky,dynamic,red cape,blue suit,heroic,adventure,action,fantasy,comic,character,power,freedom,iconic,symbol,illustration,male,muscular,pose,dramatic,nature,uplifting,ethereal,performance,rescue,imagination,legend,cape,dazzling,epic,silhouette,movement,grace">
+        </div>
+        <div class="image-item">
+            <img src="images/image13.jpg" alt="Image 13" data-keywords="superheroes,illustration,hero,villain,standoff,Wolverine,Deadpool,character,dynamic,colors,costume,yellow,black,red,action,strength,art,creativity,comics,pop culture,illustrated,heroic,powerful,contrast,fandom,action figures,Marvel,graphic design,iconic,portrayal,contemporary art,dynamic poses,colorful,epic,superhuman,fun,narrative,storytelling,visual art,detailed">
+        </div>
+        <div class="image-item">
+            <img src="images/image14.jpg" alt="Image 14" data-keywords="deadpool,masked character,dual colors,superhero,vibrant,bold colors,creative background,graphic design,popular culture,action figure,fantasy,illustration,colorful artwork,character design,pop art,comic character,heroic,masked hero,weapon,stylish,dynamic,bright colors,visual art,contemporary art,fan art,superhero genre,abstract art,striking visuals,entertainment,comics,animated style,playful design,unique artwork,illustration art,eye-catching,visual storytelling,striking imagery,genre art,character concept,popular superhero">
+        </div>
+        <div class="image-item">
+            <img src="images/image15.jpg" alt="Image 15" data-keywords="mario,character,gaming,urban landscape,colorful,daytime,vibrant,casual outfit,hoodie,denim,city,bright colors,gaming references,playful,fun,animation,cartoon,nostalgic,street,adventure,action,iconic,cheerful,pose,confidence,creative design,lifestyle,friendly,interactive,entertainment,nostalgia,game world,video game,playful attire,imaginative,whimsical,cityscape,elements,children,youth">
+        </div>
+        <div class="image-item">
+            <img src="images/image16.jpg" alt="Image 16" data-keywords="Seville,Spain,architecture,bridge,flowers,blue skies,historic,culture,tourism,Spanish architecture,landscape,cityscape,waterway,greenery,travel,history,urban,outdoor,sunny day,flag,monument,scenic,beautiful,heritage,sightseeing,vibrant,structures,reflection,cobblestone,park,flora,landmarks,picturesque,summer,explore,wanderlust,peaceful,design,botanical,serene">
+        </div>
+        <div class="image-item">
+            <img src="images/image17.jpg" alt="Image 17" data-keywords="los angeles,palm trees,sunny day,street,clouds,parked cars,afternoon,urban,scenic,vibrant,traffic lights,hillside,cityscape,California,sunny afternoon,greenery,residential area,roads,blue sky,nature,outdoors,landscape,tranquility,travel,exploration,summertime,warm weather,architecture,transportation,leisure,picturesque,tourism,sunlight,community,urban living,lifestyle,scenic route,hills,palm fronds,sky">
+        </div>
+        <div class="image-item">
+            <img src="images/image18.jpg" alt="Image 18" data-keywords="warrior,cherry blossoms,twilight,full moon,traditional attire,nature,serene,Japan,petals,samurai,landscape,tranquil,silhouette,mysterious,night sky,red leaves,fantasy art,adventure,solitude,mountains,leaves,clouds,armor,sword,epic,forest,peace,magic,shadow,mystical,dreamlike,drift,zen,calm,beautiful,landscape painting,character design,autumn,cultural,ancient">
+        </div>
+        <div class="image-item">
+            <img src="images/image19.jpg" alt="Image 19" data-keywords="sports car,classic car,vintage vehicle,red stripes,white exterior,sleek design,car park,retro style,luxury car,high-performance,automotive art,car enthusiasts,top view,detailed design,automotive history,driving experience,car culture,racing heritage,timeless elegance,collector's item,car lover,nostalgic vibe,elegant lines,vehicle showcase,polished finish,racing stripes,modern classic,contemporary design,road machine,stylish vehicle,design aesthetics,cool car,iconic vehicle,automotive design,vintage appeal,superior craftsmanship,dynamic angles,automotive enthusiasts,classic elegance,striking visuals">
+        </div>
+        <div class="image-item">
+            <img src="images/image20.jpg" alt="Image 20" data-keywords="tropical,palm trees,coastal,street,colorful houses,sunny day,clear skies,vacation,architecture,greenery,outdoors,warm weather,scenic,nature,bright colors,summer,travel,relaxing,community,road,homes,atmosphere,landscape,urban,exploration,southern,lifestyle,leisure,destination,paradise,tranquility,foliage,vibrant,residential,tourism,island,sunlight,shade,bright,picturesque">
+        </div>
+        <div class="image-item">
+            <img src="images/image21.jpg" alt="Image 21" data-keywords="warrior,lion,arena,ancient,battle,confrontation,spectators,armor,courage,epic,history,tension,strength,bravery,epic showdown,majestic,powerful,gladiator,scene,animals,humans,drama,power,legacy,fight,survival,myth,ancient warriors,legendary,wildlife,spectacle,audience,destiny,ferocity,challenge,warrior culture,thrill,glory,heroic,noble">
+        </div>
+        <div class="image-item">
+            <img src="images/image22.jpg" alt="Image 22" data-keywords="sports car,luxury car,green car,design,vehicle,modern,aerial view,concrete,bright daylight,powerful stance,sleek lines,automotive,high-performance,elegance,parking,shimmering surface,detailing,interior view,craftsmanship,racing,speed,technology,stylish,unique color,automobile,car enthusiasts,engineering,urban setting,premium materials,car lifestyle,collector's item,custom cars,automotive art,powerful engine,precision,curves,luxury lifestyle,sleek appearance,adrenaline,exclusive">
+        </div>
+        <div class="image-item">
+            <img src="images/image23.jpg" alt="Image 23" data-keywords="pink panther,cartoon character,bubble tea,sunglasses,casual wear,pastel background,drink,summer vibe,playful,fun,cute,iconic,cartoon style,animated,character design,relaxed,accessories,cheerful,beverage,trendy,character art,illustration,boba tea,fashion,vibrant,enjoyment,leisure,sipping,animated character,youth culture,hip,stylish,cartoon art,cool,colorful,laid-back,lifestyle,refreshing,playful design,summer drink">
+        </div>
+        <div class="image-item">
+            <img src="images/image24.jpg" alt="Image 24" data-keywords="lightning mcqueen,race car,muddy path,forest,dawn,morning light,greenery,puddles,splashing,animated character,adventure,cartoon,colorful,speed,nature,vehicle,racing,Pixar,children,fun,outdoors,wildlife,trees,sunlight,cinematic,motion,vibrant,playful,childhood,entertainment,red car,cartoon character,animation,adventure story,dream,fantasy,exploration,rainy day,excitement,dirt">
+        </div>
+        <div class="image-item">
+            <img src="images/image25.jpg" alt="Image 25" data-keywords="Cristiano Ronaldo,Manchester United,soccer,football,celebration,goal,red jersey,number seven,sports,athlete,intensity,match,performance,fans,joy,emotion,action,teamwork,stadium,sportswear,Portuguese player,iconic,talent,UEFA,Premier League,victory,skills,dynamic,rivalry,competition,dedication,passion,iconic number,legendary player,history,breakthrough,sports culture,European football,agility,striking,goat,devil">
+        </div>
+        <div class="image-item">
+            <img src="images/image26.jpg" alt="Image 26" data-keywords="japanese town,night,street corner,traditional shop,lantern,clouds,vintage,atmosphere,serene,illuminated,quiet,urban,architecture,evening,landscape,local business,nostalgic,electricity pole,shadows,scenic,main street,culture,neighborhood,storefront,traditional,nature,sky,night scene,peaceful,calm,travel,exploration,Japanese culture,street lights,urban street,reposted work,signage,historical,community,inviting">
+        </div>
+        <div class="image-item">
+            <img src="images/image27.jpg" alt="Image 27" data-keywords="cricket,trophy,king kohli,celebration,victory,player,sports,competition,championship,USA,achievement,team,fans,excitement,victory kiss,triumph,match,tournament,athlete,pride,winners,game,energetic,crowd,honors,memories,honor,international,perseverance,rewards,dedication,moment,glory,sporting event,success,spirits,passion,performance,elite,skilled,camaraderie">
+        </div>
+        <div class="image-item">
+            <img src="images/image28.jpg" alt="Image 28" data-keywords="Virat Kohli,king,athlete,trophy,celebration,sports,victory,championship,joy,evening,team,pride,outdoors,happiness,achievement,success,cheering,competition,winning,emotion,mask,expression,award,park,joyfulness,excitement,triumph,player,moment,famous,event,landscape,fanfare,festive,camaraderie,sporting event,determination,hard work,fitness,rivalry,teamwork,legacy">
+        </div>
+        <div class="image-item">
+            <img src="images/image29.jpg" alt="Image 29" data-keywords="cricket,India,player,Rohit Sharma,Hitman,trophy,World Cup,sport,celebration,beach,palm trees,sunny,outdoor,victory,international,team,fans,happiness,achievement,athleticism,joy,competition,icon,tournament,skilled,sportsmanship,tradition,pride,passion,event,game,winner,hold,presentation,backdrop,ocean,summer,landscape,nature,crowd,history,memorial">
+        </div>
+        <div class="image-item">
+            <img src="images/image30.jpg" alt="Image 30" data-keywords="Rohit Sharma,cricket,India,Hitman,sports,athlete,action,lion,determination,strength,passion,sportsmanship,batting,game,outdoor,competition,emotions,helmet,roaring,team,performance,play,stadium,fierce,victory,inspiration,cheers,crowd,talent,skill,iconic,fearless,celebration,power,legend,dreams,achievement,record,batsman,energy,field">
+        </div>
+    </div>
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" src="">
+        <a id="downloadLink" href="" download class="download-btn">Download</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
