@@ -1,5 +1,4 @@
 # CodeAlpha_Image_gallery
-Here's a detailed GitHub description for your Image Gallery project:
 
 ---
 
