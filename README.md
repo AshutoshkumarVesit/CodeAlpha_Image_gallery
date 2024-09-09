@@ -27,7 +27,7 @@ Here's a detailed GitHub description for your Image Gallery project:
 ## 🚀 How to Use
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/image-gallery.git
+   git clone https://github.com/AshutoshkumarVesit/CodeAlpha_Image_gallery.git
    ```
 2. Open `index.html` in your browser to view the gallery.
 
